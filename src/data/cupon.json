@@ -1,71 +1,72 @@
 [
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Be Pampered 💅🏽",
-    "color": "#FF2930"
+    "color": "#FF2930",
+    "icon": "/assets/heart.svg"
   },
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Breakfast in bed 🥞",
     "color": "#E6262D "
   },
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Bubble bath 🛀",
     "color": "#CC2229 "
   },
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Foot rub ",
     "color": "#B31F26 "
   },
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Back massage 💆🏻‍♀️",
     "color": "#991B22"
   },
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Candlelit dinner 🕯️",
     "color": "#80171D"
   },
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Slow dance 💃🏻🕺🏼",
     "color": "#661419"
   },
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Race in the park 🏃🏻‍♀️‍➡️🏃🏼‍♂️‍➡️",
     "color": "#4D1015"
   },
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Homecooked meal 🍲",
     "color": "#330C10"
   },
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Movie night 🍿",
     "color": "#1A080B"
   },
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Recreate our first date 📍",
     "color": "#FF3E41"
   },
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Reading session 📖",
     "color": "#D1242A"
   },
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Cuddling session 🤗",
     "color": "#A61A21"
   },
   {
-    "title": "This Voucher Entitles You To:",
+    "title": "This coupon entitles You to:",
     "subtitle": "Games night 🎲",
     "color": "#530C10"
   }

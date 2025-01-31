@@ -106,7 +106,7 @@ const CelebrationPage = () => {
       </div>
 
       {/* Love Coupons Section */}
-      <h2 className='cupons-title'>Love Cupons 🎟️</h2>
+      <h2 className='cupons-title'>Love Coupons 🎟️</h2>
       <Slider
         {...couponSettings}
         className='slideshow'
