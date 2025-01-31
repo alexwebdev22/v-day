@@ -1,8 +1,8 @@
-# React + Vite
+#Valentines day project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I present you a mini project I worked these days. In hopes of suprising my fiancè, I created this mini project using reactjs, css, and a new library called react-slick, pretty cool tool, might use later in my projects. So far, I worked these days on the functionality, giving bit touch of my love for her. #Valentinesday2025
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is personal and can be used as a start if you may be interested in building soemmthing like this for your partner 😄
+
+Happy coding!
