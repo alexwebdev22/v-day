@@ -26,7 +26,7 @@ It's a small but heartfelt project, and I hope it inspires others to create some
 
 ## 🛠 Tech Stack
 
-- **React.js** – The foundation of the project.
+- **vite** – The foundation of the project.
 - **React-Slick** – For smooth and interactive slideshows.
 - **CSS (Custom Styling)** – To create a polished and responsive design.
 - **JSON (Coupon Data)** – To store and display love coupons dynamically.
