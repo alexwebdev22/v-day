@@ -1,0 +1,248 @@
+/* General Styles */
+html,
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ed0008 0%, #d71d1d 25%, #c82121 50%, #d03030 75%, #e63d3d 100%);
+  color: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: auto;
+  display: block;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  margin: 5rem auto;
+}
+
+/* Header Styles */
+.header1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Button Styles */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap; /* Ensures buttons don't overflow */
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.yes-button {
+  background: #ff6f61;
+  color: white;
+}
+
+.no-button {
+  background: #6b5b95;
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* Response Message Styles */
+.response1,
+.response2 {
+  font-size: 5rem;
+  color: #ffffff;
+  margin-top: 1rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* celebration page */
+.celebration-container {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #ed0008 0%, #d71d1d 25%, #c82121 50%, #d03030 75%, #e63d3d 100%);
+  min-height: 100vh;
+  height: auto;
+  overflow-y: auto;
+}
+
+.celebration-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.slideshow {
+  margin: 2rem auto;
+  max-width: 600px;
+  position: relative;
+}
+
+.slideshow-images {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Love coupons */
+.cupon {
+  width: 100%;
+  max-width: 90%;
+  padding: 2rem;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  background-color: #f66161;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-slide > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Heart positioning */
+.heart1,
+.heart2 {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.heart1 {
+  left: 20px;
+}
+
+.heart2 {
+  right: 20px;
+}
+
+.cupon-title {
+  font-size: 1rem;
+  margin: 0 1rem;
+}
+
+.cupon-subtitle {
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.cupon:hover {
+  transform: scale(1.05);
+}
+
+/* 🎯 RESPONSIVE DESIGN */
+
+/* 🔹 For tablets (768px and below) */
+@media screen and (max-width: 768px) {
+  .header1 {
+    font-size: 3rem; /* Reduce header size */
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slideshow {
+    max-width: 90%; /* Make the slideshow fit smaller screens */
+  }
+
+  .cupon {
+    padding: 1.5rem;
+    max-width: 95%;
+  }
+
+  .cupon-title {
+    font-size: 1.5rem;
+  }
+
+  .cupon-subtitle {
+    font-size: 1rem;
+  }
+
+  .heart1 {
+    left: 10px;
+  }
+
+  .heart2 {
+    right: 10px;
+  }
+}
+
+/* 🔹 For mobile phones (480px and below) */
+@media screen and (max-width: 480px) {
+  .header1 {
+    font-size: 2.5rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  button {
+    width: 100%; /* Make buttons full-width */
+    padding: 0.8rem;
+  }
+
+  .slideshow {
+    max-width: 95%;
+  }
+
+  .cupon {
+    padding: 1rem;
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+  .cupon-title {
+    font-size: 1.2rem;
+  }
+
+  .cupon-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .heart1,
+  .heart2 {
+    font-size: 1.5rem; /* Make hearts smaller */
+    top: 45%;
+  }
+
+  .heart1 {
+    left: 5px;
+  }
+
+  .heart2 {
+    right: 5px;
+  }
+}
